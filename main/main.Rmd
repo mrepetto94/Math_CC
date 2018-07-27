@@ -1,0 +1,118 @@
+---
+title: "Crash Course Mathematics"
+author: Marco Repetto
+date: August-September, 2018
+output: beamer_presentation
+theme: "Frankfurt"
+fig_caption: "false"
+---
+
+# Before starting ... Where do I find this slides?
+![](img/crying-meme-slide.png)
+
+# Essentials of Set Theory
+
+## What is a set?
+A set may be seen as a collection of elements. The following 
+
+$$ S = \{a,b,c\} $$ 
+
+is said to be a set. In particualr we are talking about the set $S$ with elements $a$ $b$ and $c$.
+
+## Be carfull
+The order is not important meaninig that given two vectors:
+$$ A = \{1,2,3\} \quad B = \{1,3,2,1\} $$
+$$ A = B $$
+
+# Essentials of Set Theory II
+
+## Let's elaborate it a little more...
+The notation we used previously usefull with short sets but what about big sets and infinite sets? We need to use  a different notation defining the property of the set:
+
+# Some Aspects of Logic
+
+- Eat eggs
+- Drink coffee
+
+# Mathematical Proofs
+
+- Eat eggs
+- Drink coffee
+
+# The Real Numbers
+
+- Eat eggs
+- Drink coffee
+
+# Integer Powers
+
+- Eat eggs
+- Drink coffee
+
+# Rules of Algebra
+
+- Turn off alarm
+- Get out of bed
+
+# Fractions
+
+- Eat eggs
+- Drink coffee
+
+# Fractional Power
+
+- Eat eggs
+- Drink coffee
+
+# Inequalities
+
+- Eat eggs
+- Drink coffee
+
+# Intervals and Absolute Values
+
+- Eat eggs
+- Drink coffee
+
+# Summation
+
+- Turn off alarm
+- Get out of bed
+
+# Rules for Sums
+
+- Eat eggs
+- Drink coffee
+
+# Newton's Binomial Formula
+
+- Eat eggs
+- Drink coffee
+
+# Duble Summs
+
+- Eat eggs
+- Drink coffee
+
+# END OF CH 2
+
+- Eat eggs
+- Drink coffee
+
+
+
+## Dinner
+
+- Eat spaghetti
+- Drink wine
+
+---
+
+```{r, cars, fig.cap="A scatterplot.", echo=FALSE}
+plot(cars)
+```
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
