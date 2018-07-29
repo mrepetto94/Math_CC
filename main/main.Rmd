@@ -4,12 +4,14 @@ author: Marco Repetto
 date: August-September, 2018
 output: beamer_presentation
 theme: "Frankfurt"
-fig_caption: "false"
+fig_caption: FALSE
 ---
 
 # Before starting ... Where do I find this slides?
-![](img/crying-meme-slide.png)
 
+```{r, fig.align="center", out.width = "80%", echo = FALSE}
+include_graphics("img/crying-meme-slide.png")
+```
 # Essentials of Set Theory
 
 ## What is a set?
@@ -27,27 +29,130 @@ $$ A = B $$
 # Essentials of Set Theory II
 
 ## Let's elaborate it a little more...
-The notation we used previously usefull with short sets but what about big sets and infinite sets? We need to use  a different notation defining the property of the set:
+The notation we used previously is usefull with short sets but what about big sets and infinite sets? We need to use  a different notation defining the property of the set:
+$$ B = \{(x,y):px + qy \leq m, x \geq 0, y \geq 0\} $$
+
+## Set Membership
+$$ x\in S \quad x\notin S $$
+$$ A \subseteq B $$
+
+# Essentials of Set Theory III
+
+## Exercise
+Try to state the properties of the **even** number set.
+
+```{r, fig.align="center", out.width = "40%", echo = FALSE}
+include_graphics("img/leonardo.jpg")
+```
+# Essentials of Set Theory IV
+
+## Set operations
+| Notation      | The set that consists of the elements that: |
+| ------------- | --------------------------------------------|
+| $$A \cup B$$  | belong to at least one of the sets $A$ and $B$|
+| $$A \cap B$$      | belong to both $A$ and $B$|
+| $$A \setminus B$$ | belong to set $A$, but not to $B$|
+| $$ A^c $$ | do not belong to set $A$|
+
+##Tips and tricks
+For a small number of sets you can use Venn diagramms as a visual help!
+
+
+# Essentials of Set Theory V (Exercises)
+## 1.1.5 Determine which of the following formulas are true. If any is false, find a counter example to demostrate this.
+(a) $A \setminus B = B \setminus A$
+(b) $A \cap (B \cup C) \subseteq (A \cap B) \cup C$ 
+(c) $A \cup (B \cap C) \setminus (A \cup B) \cap C$
+(d) $A \setminus (B \setminus C) = (A \setminus B) \setminus C$
+
+## 1.1.6 Use the Venn diagrams to prove that: 
+(a) $(A \cup B)^c = A^c \cap B^c$ 
+(b) $(A \cap B)^c = A^c \cup B^c$
 
 # Some Aspects of Logic
 
-- Eat eggs
-- Drink coffee
+##Propositions
+Are assertions that are either true or false.
+
+*Eg: all individuals who breathe are alive* **TRUE proposition**
+
+*Eg: all individuals who breathe are healthy* **FALSE proposition**
+
+##Implications
+Implications are used to keep track of the logical chain reasoning.
+
+*Eg: $P \implies Q$* **is read as if $P$ then $Q$**
+
+*Eg: $P \iff Q$* **is read as $P$ if and only if $Q$**
+
+# Some Aspects of Logic II
+
+## Necessary and Sufficient Conditions
+Taking the last example
+
+$$ P \implies Q $$
+
+$P$ is a **sufficient condition** for $Q$
+
+$Q$ is a **necessary condition** for $P$
+
+$$ \overbrace{P}^{\text{Living in Paris}} \underbrace{\implies}_{\text{If then}} \overbrace{Q}^{\text{Living in France}}$$
+
+# Some Aspects of Logic III (Exercises)
+## 1.2.2 Determine which of the following formulas are true. I any formula is false, find a counter a counter example to demonstrate this.
+(a) $A \subseteq B \iff A \cup B = B$
+(b) $A \subseteq B \iff A \cap B = A$ 
+(c) $A \cap B = A \cap C \implies B = C$
+(d) $A \cup B = A \cup C \implies B = C$
+(e) $A = B \iff (x \in A \iff x \in B$
+
+# Some Aspects of Logic IV (Exercises)
+## 1.2.5 For each of the following proposition, state the negation as simply as possible.
+(a) $x \geq and y \geq 0$ 
+(b) All $x$ satisfy $x\geq a$
+(c) Neither $x$ nor $y$ is less than $5$
+(d) For each $\epsilon \geq 0$, there exists a $\delta > 0$ such that $B$ is satisfied
+(e) No one can help liking cats
+(f) Everyone loves somebody some of the time
 
 # Mathematical Proofs
 
-- Eat eggs
-- Drink coffee
+##Characteristics
+Looking on what argued by Thomas Tymoczko, three are the main features of a mathemetical proof:
 
-# The Real Numbers
+1. Convincingness
 
-- Eat eggs
-- Drink coffee
+2. Surveyability
+
+3. Formalizability
+
+##Direct proof
+We start with the premises $P$ and work forward to $Q$
+
+##Indirect proof
+We are going backwards supposing $Q$ is false and proving the falseness of $P$
+
+# Mathematical induction
+Direct and indirect proof are a both examples of deductive reasoning (we use the rules of logic to prove something). Inductive reasoning moves from a different assumption meaning that we can establish certain conclusions by observations.
+
+# Algebra
+
+## The Real Numbers
+- Natural numbers $N=..., -2,-1,0,1,2,...$
+- Rational numbers $Q= \{x : x=\frac{a}{b}, a \in N, b \in N\}$
+- Irrational numbers
+
+## 2.1.1 Explain why the infinite decimal expansion below is not a rational number
+
+$1.01001000100001...$
 
 # Integer Powers
 
-- Eat eggs
-- Drink coffee
+## Definition
+
+$$a^n=\overbrace{a \cdot a ... a}^{n}$$
+$$a^{-n}=\overbrace{\frac{1}{a} \cdot \frac{1}{a} ... \frac{1}{a}}^{n}$$
+
 
 # Rules of Algebra
 
