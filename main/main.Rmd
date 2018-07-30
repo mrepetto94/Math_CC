@@ -104,7 +104,7 @@ $$ \overbrace{P}^{\text{Living in Paris}} \underbrace{\implies}_{\text{If then}}
 (b) $A \subseteq B \iff A \cap B = A$ 
 (c) $A \cap B = A \cap C \implies B = C$
 (d) $A \cup B = A \cup C \implies B = C$
-(e) $A = B \iff (x \in A \iff x \in B$
+(e) $A = B \iff (x \in A \iff x \in B)$
 
 # Some Aspects of Logic IV (Exercises)
 ## 1.2.5 For each of the following proposition, state the negation as simply as possible.
@@ -138,9 +138,11 @@ Direct and indirect proof are a both examples of deductive reasoning (we use the
 # Algebra
 
 ## The Real Numbers
-- Natural numbers $N=..., -2,-1,0,1,2,...$
-- Rational numbers $Q= \{x : x=\frac{a}{b}, a \in N, b \in N\}$
-- Irrational numbers
+- Natural numbers: $\mathbb{N}=\{0,1,2,...\}$
+- Integers: $\mathbb{Z}= \mathbb{N}\cup \{...,-2,-1\}$ 
+- Rational numbers: $\mathbb{Q}= \{x : x=\frac{a}{b}, a \in N, b \in N\}$
+- Irrational numbers: $\mathbb{I}= \mathbb{R} \ \mathbb{Q}$
+- Real numbers: $\mathbb{R}=\mathbb{Q} \cup \mathbb{I}$
 
 ## 2.1.1 Explain why the infinite decimal expansion below is not a rational number
 
@@ -153,71 +155,49 @@ $1.01001000100001...$
 $$a^n=\overbrace{a \cdot a ... a}^{n}$$
 $$a^{-n}=\overbrace{\frac{1}{a} \cdot \frac{1}{a} ... \frac{1}{a}}^{n}$$
 
+## And ...
+$$a^0=1 \quad  \forall a \neq 0$$
+$$a^0= undefined \quad if \quad a = 0$$
+
+# Integer Powers II
+
+##Properties
+For any real number $a$, and any integer numbers $r$ and $s$:
+
+$$ a^r \cdot a^s = a^{r+s}$$
+$$ (a^r)^s= a^{rs}$$
+
+# Integer Powers III
+
+```{r, fig.align="center", out.width = "40%", echo = FALSE}
+include_graphics("img/spongebob")
+```
 
 # Rules of Algebra
 
-- Turn off alarm
-- Get out of bed
 
 # Fractions
 
-- Eat eggs
-- Drink coffee
 
 # Fractional Power
 
-- Eat eggs
-- Drink coffee
 
 # Inequalities
 
-- Eat eggs
-- Drink coffee
 
 # Intervals and Absolute Values
 
-- Eat eggs
-- Drink coffee
 
 # Summation
 
-- Turn off alarm
-- Get out of bed
 
 # Rules for Sums
 
-- Eat eggs
-- Drink coffee
 
 # Newton's Binomial Formula
 
-- Eat eggs
-- Drink coffee
 
 # Duble Summs
 
-- Eat eggs
-- Drink coffee
 
 # END OF CH 2
-
-- Eat eggs
-- Drink coffee
-
-
-
-## Dinner
-
-- Eat spaghetti
-- Drink wine
-
----
-
-```{r, cars, fig.cap="A scatterplot.", echo=FALSE}
-plot(cars)
-```
-
-## Going to sleep
-
-- Get in bed
-- Count sheep
